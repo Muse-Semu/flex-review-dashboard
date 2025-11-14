@@ -7,7 +7,6 @@ import RatingChart from '../components/RatingChart';
 import CategoryChart from '../components/CategoryChart';
 import TrendChart from '../components/TrendChart';
 import { AlertCircle, Loader2, CheckCircle2 } from 'lucide-react';
-import { format } from 'date-fns';
 
 export default function Dashboard() {
   const { filteredReviews, loading, error, selectedReviews, resetFilters } = useReviewStore();

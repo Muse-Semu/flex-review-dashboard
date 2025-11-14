@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import { format, parseISO, startOfMonth, eachMonthOfInterval, min, max } from 'date-fns';
+import { format, startOfMonth, eachMonthOfInterval, min, max } from 'date-fns';
 import { NormalizedReview } from '../store/reviewStore';
 
 interface TrendChartProps {

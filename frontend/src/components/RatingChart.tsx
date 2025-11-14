@@ -41,7 +41,7 @@ export default function RatingChart({ reviews }: RatingChartProps) {
         <YAxis />
         <Tooltip />
         <Bar dataKey="count" radius={[8, 8, 0, 0]}>
-          {data.map((entry, index) => (
+          {data.map((_entry, index) => (
             <Cell key={`cell-${index}`} fill={colors[index]} />
           ))}
         </Bar>

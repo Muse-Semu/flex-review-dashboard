@@ -1,6 +1,6 @@
 import { useReviewStore } from '../store/reviewStore';
 import { Link } from 'react-router-dom';
-import { Star, TrendingUp, Eye } from 'lucide-react';
+import { Star, Eye } from 'lucide-react';
 
 export default function PropertyStats() {
   const { properties, propertyStats } = useReviewStore();
