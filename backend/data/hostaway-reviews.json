@@ -1,0 +1,270 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7454,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Great location and clean apartment. The host was very responsive. Would stay again!",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 9
+        },
+        {
+          "category": "value",
+          "rating": 8
+        }
+      ],
+      "submittedAt": "2023-10-15 14:30:00",
+      "guestName": "Emma Thompson",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Nice place but the WiFi was a bit slow. Otherwise everything was good.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 7
+        },
+        {
+          "category": "amenities",
+          "rating": 6
+        }
+      ],
+      "submittedAt": "2023-11-02 09:15:22",
+      "guestName": "Michael Chen",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7456,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Absolutely perfect! The apartment exceeded all expectations. Beautiful design and amazing location.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 10
+        },
+        {
+          "category": "value",
+          "rating": 10
+        },
+        {
+          "category": "amenities",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2023-12-01 18:45:33",
+      "guestName": "Sarah Johnson",
+      "listingName": "Studio Loft - Canary Wharf"
+    },
+    {
+      "id": 7457,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Decent place for the price. Could use some updates but functional.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 7
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "value",
+          "rating": 7
+        }
+      ],
+      "submittedAt": "2023-09-20 11:20:15",
+      "guestName": "David Williams",
+      "listingName": "Studio Loft - Canary Wharf"
+    },
+    {
+      "id": 7458,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Lovely apartment with great views. The check-in process was smooth and the host was helpful.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        },
+        {
+          "category": "location",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2023-11-18 16:30:45",
+      "guestName": "Lisa Anderson",
+      "listingName": "Studio Loft - Canary Wharf"
+    },
+    {
+      "id": 7459,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "The apartment had some maintenance issues. The heating wasn't working properly and there was a leak in the bathroom.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 6
+        },
+        {
+          "category": "communication",
+          "rating": 5
+        },
+        {
+          "category": "amenities",
+          "rating": 4
+        }
+      ],
+      "submittedAt": "2023-10-05 13:10:28",
+      "guestName": "Robert Martinez",
+      "listingName": "3BR Family Home - Hackney"
+    },
+    {
+      "id": 7460,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Perfect family accommodation! Spacious, clean, and in a great neighborhood. Highly recommend!",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 10
+        },
+        {
+          "category": "value",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2023-12-10 10:25:12",
+      "guestName": "Jennifer Brown",
+      "listingName": "3BR Family Home - Hackney"
+    },
+    {
+      "id": 7461,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Good value for money. The place was clean and the location was convenient for public transport.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "location",
+          "rating": 8
+        },
+        {
+          "category": "value",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2023-11-25 15:40:00",
+      "guestName": "James Wilson",
+      "listingName": "3BR Family Home - Hackney"
+    },
+    {
+      "id": 7462,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Excellent stay! The apartment was modern, well-equipped, and the host provided great recommendations for local restaurants.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "location",
+          "rating": 9
+        },
+        {
+          "category": "amenities",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2023-12-05 12:15:30",
+      "guestName": "Amanda Taylor",
+      "listingName": "1BR Modern Flat - Islington"
+    }
+  ]
+}
+
