@@ -44,8 +44,31 @@ interface NormalizedReview {
 
 async function getHostawayReviews(): Promise<HostawayReview[]> {
   try {
-    const filePath = join(process.cwd(), 'backend/data/hostaway-reviews.json');
-    const fileContent = await readFile(filePath, 'utf-8');
+    // Try multiple possible paths for the data file
+    const possiblePaths = [
+      join(process.cwd(), 'backend/data/hostaway-reviews.json'),
+      join(process.cwd(), '../../backend/data/hostaway-reviews.json'),
+    ];
+    
+    let fileContent = '';
+    let lastError: Error | null = null;
+    
+    for (const filePath of possiblePaths) {
+      try {
+        fileContent = await readFile(filePath, 'utf-8');
+        break;
+      } catch (e) {
+        lastError = e instanceof Error ? e : new Error(String(e));
+        continue;
+      }
+    }
+    
+    if (!fileContent) {
+      console.error('Could not find hostaway-reviews.json. Tried paths:', possiblePaths);
+      console.error('Last error:', lastError);
+      throw new Error('Could not find hostaway-reviews.json file');
+    }
+    
     const data: HostawayResponse = JSON.parse(fileContent);
     
     if (data.status !== 'success' || !Array.isArray(data.result)) {
